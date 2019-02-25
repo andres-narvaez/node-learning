@@ -1,6 +1,5 @@
 const options = {
     base: {
-        demand: true,
         alias: 'b'
     },
     limite: {

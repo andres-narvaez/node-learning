@@ -6,9 +6,9 @@ let comando = argv._[0]
 
 switch(comando) {
   case 'do':
-  let task = toDo.build(argv.description);
-  toDo.saveDb(task);
-  break;
+    let task = toDo.build(argv.description);
+    toDo.saveDb(task);
+    break;
 
   case 'list':
     let findTask = toDo.listing(argv.description)

@@ -44,8 +44,8 @@ async function listarTablas(bases, limite) {
 
     
     return tablas.forEach(tabla => {
-        console.log(colors.green(tabla.nombreTabla))
-        console.log(colors.cyan(tabla.tablaCompleta.join('\n')))
+        console.log(colors.yellow(tabla.nombreTabla))
+        console.log(colors.white(tabla.tablaCompleta.join('\n')))
         console.log(colors.gray('===================='))
     });
 }
